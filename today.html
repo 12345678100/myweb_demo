@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #heading{ width: 100vw;
+            height: 5vh;
+            background-color: brown;
+            display: flex;
+            justify-content: center;
+align-items: center;
+
+
+        }
+        #B1{
+             
+            width: 100PX;
+            background-color: green;
+            color: white;
+            border-radius:30px;
+            align-items: center;
+        }
+         #B2{
+             
+            width: 100PX;
+            background-color: rgba(173, 188, 173, 0.825);
+            color: white;
+            border-radius: 30px;
+        }
+    </style>
+</head>
+<body>
+    <h1 id="heading">is java script easy</h1>
+    <button id="B1">yes</button>
+    <button id="B2">no</button>
+</body>
+<SCRipt>
+    document.getElementById("B1").onclick = function(){
+        document.getElementById("heading").innerHTML = "yes java script is easy guys"
+    }
+    document.getElementById("B2").onclick = function(){
+        document.getElementById("heading").innerHTML = "no,if you are not practice"
+    }
+    
+</SCRipt>
+</html>
